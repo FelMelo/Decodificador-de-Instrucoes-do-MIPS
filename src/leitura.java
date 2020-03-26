@@ -24,23 +24,23 @@ public class leitura {
 		/*INICIO DAS INSTRUCOES ARITMETICAS*/
             case "add": 
             	
-            	instruc = "000000";
+            	instruc = "100000";
     			break;
     			
             case "addi": 
-            	instruc = "000000"; 
+            	instruc = "001000"; 
                 break; 
                 
             case "sub": 
-                instruc = "000001"; 
+                instruc = "100010"; 
                 break; 
                 
             case "mult": 
-                instruc = "000010"; 
+                instruc = "011000"; 
                 break; 
                 
             case "div": 
-                instruc = "000000"; 
+                instruc = "011010"; 
                 break; 
                 
             case "neg": 
@@ -50,35 +50,35 @@ public class leitura {
                 /*INICIO DAS INSTRUCOES LOGICAS*/
 
             case "and": 
-                instruc = "000000"; 
+                instruc = "100100"; 
                 break; 
                 
             case "andi": 
-                instruc = "000000"; 
+                instruc = "001000"; 
                 break;
                 
             case "or": 
-                instruc = "000000"; 
+                instruc = "100101"; 
                 break;
                 
             case "ori": 
-                instruc = "000000"; 
+                instruc = "001101"; 
                 break; 
                 
             case "xor": 
-                instruc = "000000"; 
+                instruc = "100110"; 
                 break; 
                 
             case "nor": 
-                instruc = "000000"; 
+                instruc = "100111"; 
                 break; 
                 
             case "slt": 
-                instruc = "000000"; 
+                instruc = "101010"; 
                 break; 
                 
             case "slti": 
-                instruc = "000000"; 
+                instruc = "001010"; 
                 break; 
                 
                 /*FIM DAS INSTRUCOES LOGICAS*/
@@ -89,24 +89,24 @@ public class leitura {
                 break; 
                 
             case "slr": 
-                instruc = "000000"; 
+                instruc = "000010"; 
                 break; 
                 
                 /*FIM DAS INSTRUCOES DESLOCAMENTO*/
                 /*INICIO DAS INSTRUCOES ACESSO MEM*/
                 
             case "lw": 
-                instruc = "000000"; 
+                instruc = "100011"; 
                 break; 
                 
             case "sw": 
-                instruc = "000000"; 
+                instruc = "101011"; 
                 break; 
                 
                 /*FIM DAS INSTRUCOES ACESSO MEM*/
                 /*INICIO DAS INSTRUCOES DESVIO COND*/
             case "beq": 
-                instruc = "000000"; 
+                instruc = "000100"; 
                 break; 
                 
             case "bnq": 
@@ -117,15 +117,15 @@ public class leitura {
                 /*INICIO DAS INSTRUCOES DESVIO INCOND*/
                 
             case "j": 
-                instruc = "000000"; 
+                instruc = "000010"; 
                 break; 
                 
             case "jr": 
-                instruc = "000000"; 
+                instruc = "001000"; 
                 break; 
                 
             case "jal": 
-                instruc = "000000";
+                instruc = "000011";
                
                 break; 
                 
@@ -133,12 +133,12 @@ public class leitura {
                 /*OUTRAS*/
                 
             case "nop": 
-                instruc = "000000";
+                instruc = "000000"; 
                 
                 break; 
                 
             default: 
-                System.out.println("instrução nao conhecida"); 
+                System.out.println("instruï¿½ï¿½o nao conhecida"); 
         } 
 		
 		System.out.println(instruc);
