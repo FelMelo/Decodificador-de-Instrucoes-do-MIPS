@@ -10,4 +10,4 @@ Integrantes: Felipe Melo, Victor Prado, Ricardo Christovao, Leo
 
 27/03 -:- [Ricardo]: Modularização do código, alteração linhas, criação de classes e melhoria de qualidade.
 
-29/03 -:- [Ricardo]: CMake
+29/03 -:- [Ricardo]: Falta cmake, UML e testes.
